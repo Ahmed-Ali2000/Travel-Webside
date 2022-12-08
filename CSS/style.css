@@ -1369,7 +1369,7 @@ a{
   position: relative;	
 }
 
-.container form{
+.container .form{
   background: #fff;
   border-radius: 5px;
   background: linear-gradient(90deg, #0e2836, #183633);		
