@@ -1372,9 +1372,9 @@ a{
 .container form{
   background: #fff ;	
   border-radius: 5px;		
-  background: linear-gradient(90deg, #0e2836, #183633) ;		
+  background: linear-gradient(90deg, #0e283638, #18363355);		
   padding: 20px;		
-  width: 500px;		
+  width: 400px;
   padding-top: 170px;		
 }
 
