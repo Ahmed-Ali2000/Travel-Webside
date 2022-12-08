@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- AOS Library  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Link bootstrap cdn link-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <!-- header section starts  -->
+
+<header class="header">
+
+  <div id="menu-btn" class="fas fa-bars"></div>
+
+  <a data-aos="zoom-in-left" data-aos-delay="150" href="index.html" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
+
+  <nav class="navbar">
+      <a data-aos="zoom-in-left" data-aos-delay="300" href="index.html">home</a>
+      <a data-aos="zoom-in-left" data-aos-delay="450" href="index.html">about</a>
+      <a data-aos="zoom-in-left" data-aos-delay="600" href="index.html">destination</a>
+      <a data-aos="zoom-in-left" data-aos-delay="750" href="index.html">services</a>
+      <a data-aos="zoom-in-left" data-aos-delay="900" href="index.html">gallery</a>
+      <a data-aos="zoom-in-left" data-aos-delay="1150" href="index.html">blogs</a>
+      <a data-aos="zoom-in-left" data-aos-delay="1150" href="contact.html">Contact us</a>
+
+  </nav>
+
+  <a data-aos="zoom-in-left" data-aos-delay="1300" href="booknow.html" class="btn">book now</a>
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- home section starts  -->
+
+<section class="contact-home" id="home">
+
+  <div class="contentus">
+      <span data-aos="fade-up" data-aos-delay="150">contact us</span>
+  </div>
+
+</section>
+
+<!-- home section ends -->  
+<!-- contact section stasts -->
+<section class="contacts mb-5">
+  <div class="row">
+    <div class="col-">
+      <h2 data-aos="fade-up">DON’T HESITATE TO CONTACT US</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row ">
+      <div  data-aos="zoom-in-right" data-aos-delay="600" class="col-md-6 col-sm-12">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe class="gmap_iframe" width="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=وسط البلد ميدان طلعت حرب&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/"></a>
+          </div>
+          <div class="address">
+            <h3 class="text-secondary mt-5">address:</h3>
+            <h5 class="text-light mt-3">Talaat Harb, Bab Al Louq, Qasr El Nil, Cairo Governorate <br>26VP+Q78, Qasr Ad Dobarah, Abdeen, Cairo Governorate .</h5>
+            <h3 class="text-secondary mt-5">phone:</h3>
+            <h5 class="text-light ">-01019350161 -01064585628 <br> -01100008644  -01200002389 </h5>
+            <h5 class="text-light "> <i class="fas fa-clock text-info mt-3 " ></i> 7:00am - 12:00pm </h5>
+          </div>
+        </div>
+      </div>
+
+      <div  data-aos="zoom-in-left" data-aos-delay="600" class="col-md-6 col-sm-12">
+        <div class="screen">
+          <div class="screen__content">
+            <form id="myform" onclick = "return validate();" class="login">
+              <div class="login__field">
+                <i class="login__icon fas fa-user"></i>
+                <input id="name" type="text" class="login__input" placeholder="full name">
+              </div>
+              <div class="login__field">
+                <i class="login__icon fas fa-envelope"></i>
+                <input id="email" type="email" class="login__input" placeholder="email">
+              </div>
+              <div  class="login__field">
+                <i class="login__icon fas fa-phone"></i>
+                <input id="phone" type="text" class="login__input" placeholder="phone">
+              </div> 
+              <textarea id="message" placeholder="Type your message here...." name="message"></textarea>
+    
+              <button type="submit" onclick="sendMail()" class="button login__submit mt-4">
+                <span class="button__text">SEND</span>
+                <i class="button__icon fas fa-chevron-right"></i>
+              </button>			
+              <p id="error_message"></p>
+            </form>
+            <div class="social-login">
+              <h6>or  text us in</h6>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/ahmed._.ali122/" class="social-login__icon fab fa-instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100012296767911" class="social-login__icon fab fa-facebook"></a>
+                <a href="https://twitter.com/Ahmed_Ali1290" class="social-login__icon fab fa-twitter"></a>
+              </div>  
+              
+            </div>
+          </div>
+          <div class="screen__background">
+            <span class="screen__background__shape screen__background__shape4"></span>
+            <span class="screen__background__shape screen__background__shape3"></span>		
+            <span class="screen__background__shape screen__background__shape2"></span>
+            <span class="screen__background__shape screen__background__shape1"></span>
+          </div>		
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact section ends -->
+<!-- banner section starts  -->
+
+<div class="banner">
+
+  <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+      <span>start your adventures</span>
+      <h3>Let's Explore This World</h3>
+      <a href="booknow.html" class="btn mt-4">book now</a>
+  </div>
+
+</div>
+
+<!-- banner section ends -->
+<!-- footer section starts  -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel </a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
+          <div class="share">
+              <a href="https://www.facebook.com/profile.php?id=100012296767911" class="fab fa-facebook-f"></a>
+              <a href="https://twitter.com/Ahmed_Ali1290" class="fab fa-twitter"></a>
+              <a href="https://www.instagram.com/ahmed._.ali122/" class="fab fa-instagram"></a>
+              <a href="https://wa.me/01064585628" class="fab fa-whatsapp"></a>
+              <a href="https://www.linkedin.com/in/ahmed-ali-4b5602234/" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <h3>quick links</h3>
+          <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+          <a href="#destination" class="links"> <i class="fas fa-arrow-right"></i> destination </a>
+          <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
+          <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+          <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+          <a href="contact.html" class="links"> <i class="fas fa-arrow-right"></i> contact us </a>
+
+      </div>
+      
+
+      <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-map"></i> cairo, egypt </p>
+          <p> <i class="fas fa-phone"></i> +201064585628</p>
+          <p> <i class="fas fa-envelope"></i> ahmedali212003@gmail.com </p>
+          <p> <i class="fas fa-clock"></i> 7:00am - 12:00pm </p>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="600">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="contact.html">
+              <input type="email" name="" placeholder="enter your email" class="email" id="">
+              <input type="submit" value="subscribe" class="btn">
+          </form>
+      </div>
+
+  </div>
+
+</section>
+<div class="credit">&#9400; 2022 created by <span>Ahmed Ali</span> </div>
+
+<!-- footer section ends -->
+
+<!-- javascript link -->
+    <script src="JS/main.js"></script>
+<!-- bootstrap links -->
+    <script src="JS/jquery.slim.min.js"></script>
+    <script src="JS/popper.min.js"></script>    
+    <script src="JS\bootstrap.min.js"></script>
+
+<!-- AOS liberari -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset:150,
+        });
+    </script> 
+
+<!-- emailjs links -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+          emailjs.init("PIY_8dr4Wo1LZKGk1");
+    })();
+    </script>
+</body>
+</html>
