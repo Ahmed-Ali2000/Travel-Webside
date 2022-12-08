@@ -822,7 +822,7 @@ a{
   .banner .content h3 {
     font-size: 2.7rem;
   }
-  .login {
+   .screen .screen__content .login {
     width: 80%;
     padding: 30px;
     padding-top: 60px;
@@ -852,7 +852,7 @@ a{
   }
   
   
-  .login__input {
+   .screen .screen__content .login__input {
     border: none;
     border-bottom: 2px solid #D1D1D4;
     background: none;
@@ -965,18 +965,18 @@ a{
 	border-radius: 60px;
 }
 
-.login {
+ .screen .screen__content .login {
 	width: 420px;
 	padding: 30px;
 	padding-top: 60px;
 }
 
-.login__field {
+  .screen .screen__content .login__field {
 	padding: 20px 0px;	
 	position: relative;	
 }
 
-.login__icon {
+ .screen .screen__content .login__icon {
 	position: absolute;
 	top: 30px;
 	color: #29d9d5;
@@ -984,7 +984,7 @@ a{
 
 }
 
-.login__input {
+ .screen .screen__content .login__input {
 	border: none;
 	border-bottom: 2px solid #D1D1D4;
 	background: none;
@@ -1006,7 +1006,7 @@ a{
 	border-bottom-color: #29d9d5;
 }
 
-.login__submit {
+ .screen .screen__content .login__submit {
     display: inline-block!important;
     padding: .5rem .5rem!important;
     font-size: 1rem!important;
