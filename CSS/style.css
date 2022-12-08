@@ -1370,19 +1370,19 @@ a{
 }
 
 .container .form{
-  background: #fff;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #0e2836, #183633);		
-  padding: 20px;
-  width: 500px;
-  padding-top: 170px;
+  background: #fff !important;	
+  border-radius: 5px!important;		
+  background: linear-gradient(90deg, #0e2836, #183633) !important;		
+  padding: 20px!important;		
+  width: 500px!important;		
+  padding-top: 170px!important;		
 }
 
-.container form .inputBox{
+.container .form .inputBox{
   margin-top: 20px;
 }
 
-.container form .inputBox span{
+.container .form .inputBox span{
   display: block;
   color:rgb(207, 207, 207);
   padding-bottom: 5px;
@@ -1391,8 +1391,8 @@ a{
 
 
 
-.container form .inputBox input ,
-.container form .inputBox select{
+.container .form .inputBox input ,
+.container .form .inputBox select{
 border: none;
 border-bottom: 2px solid #D1D1D4;
 background: none;
@@ -1407,23 +1407,23 @@ transition: .2s;
 }
 
 
-.container form .inputBox  :active,
-.container form .inputBox  :focus,
-.container form .inputBox  :hover {
+.container .form .inputBox  :active,
+.container .form .inputBox  :focus,
+.container .form .inputBox  :hover {
 outline: none;
 border-bottom-color: #29d9d5;
 }
 
-.container form .flexbox{
+.container .form .flexbox{
   display: flex;
   gap:15px;
 }
 
-.container form .flexbox .inputBox{
+.container .form .flexbox .inputBox{
   flex:1 1 150px;
 }
 
-.container form .submit-btn{
+.container .form .submit-btn{
   width: 100%;
 background: linear-gradient(200deg, #1f2020 , #0f5451);
   margin-top: 20px;
@@ -1435,7 +1435,7 @@ background: linear-gradient(200deg, #1f2020 , #0f5451);
   transition: .2s linear;
 }
 
-.container form .submit-btn:hover{
+.container .form .submit-btn:hover{
   letter-spacing: 2px;
   opacity: .8;
 }
