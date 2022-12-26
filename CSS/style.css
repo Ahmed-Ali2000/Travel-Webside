@@ -769,7 +769,7 @@ a{
 
 @media (max-width: 768px) {
   #menu-btn {
-    display: inline-block;
+    display: inline-block !important;
   }
   .header .navbar {
     position: absolute;
